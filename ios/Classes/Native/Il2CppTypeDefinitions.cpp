@@ -52,6 +52,7 @@ extern const Il2CppType Int32_t2847414787_1_0_2 = { (void*)5, 2, IL2CPP_TYPE_I4,
 extern const Il2CppType Int32_t2847414787_0_0_32854 = { (void*)5, 32854, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_3 = { (void*)5, 3, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_129 = { (void*)5, 129, IL2CPP_TYPE_I4, 0, 0, 0 };
+extern const Il2CppType Int32_t2847414787_0_0_32849 = { (void*)5, 32849, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_1 = { (void*)5, 1, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_6 = { (void*)5, 6, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_38 = { (void*)5, 38, IL2CPP_TYPE_I4, 0, 0, 0 };
@@ -61,7 +62,6 @@ extern const Il2CppType Int32_t2847414787_0_0_1542 = { (void*)5, 1542, IL2CPP_TY
 extern const Il2CppType Int32_t2847414787_0_0_17 = { (void*)5, 17, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_49 = { (void*)5, 49, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_131 = { (void*)5, 131, IL2CPP_TYPE_I4, 0, 0, 0 };
-extern const Il2CppType Int32_t2847414787_0_0_32849 = { (void*)5, 32849, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_19 = { (void*)5, 19, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_4 = { (void*)5, 4, IL2CPP_TYPE_I4, 0, 0, 0 };
 extern const Il2CppType Int32_t2847414787_0_0_54 = { (void*)5, 54, IL2CPP_TYPE_I4, 0, 0, 0 };
@@ -602,6 +602,7 @@ extern const Il2CppType IEnumerator_1_t2441315469_0_0_0 = { &IEnumerator_1_t2441
 
 extern const Il2CppType Single_t958209021_0_0_0 = { (void*)30, 0, IL2CPP_TYPE_R4, 0, 0, 0 };
 extern const Il2CppType Single_t958209021_1_0_0 = { (void*)30, 0, IL2CPP_TYPE_R4, 0, 1, 0 };
+extern const Il2CppType Single_t958209021_0_0_32854 = { (void*)30, 32854, IL2CPP_TYPE_R4, 0, 0, 0 };
 extern const Il2CppType Single_t958209021_0_0_3 = { (void*)30, 3, IL2CPP_TYPE_R4, 0, 0, 0 };
 extern const Il2CppType Single_t958209021_0_0_1 = { (void*)30, 1, IL2CPP_TYPE_R4, 0, 0, 0 };
 extern const Il2CppType Single_t958209021_0_0_6 = { (void*)30, 6, IL2CPP_TYPE_R4, 0, 0, 0 };
@@ -660,8 +661,10 @@ extern const Il2CppType IComparable_1_t3792086476_0_0_0 = { &IComparable_1_t3792
 extern const Il2CppType IComparable_1_t3792086476_0_0_3 = { &IComparable_1_t3792086476_GenericClass, 3, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const Il2CppType Double_t534516614_0_0_0 = { (void*)31, 0, IL2CPP_TYPE_R8, 0, 0, 0 };
+extern const Il2CppType Double_t534516614_0_0_32849 = { (void*)31, 32849, IL2CPP_TYPE_R8, 0, 0, 0 };
 extern const Il2CppType Double_t534516614_1_0_0 = { (void*)31, 0, IL2CPP_TYPE_R8, 0, 1, 0 };
 extern const Il2CppType Double_t534516614_1_0_2 = { (void*)31, 2, IL2CPP_TYPE_R8, 0, 1, 0 };
+extern const Il2CppType Double_t534516614_0_0_32854 = { (void*)31, 32854, IL2CPP_TYPE_R8, 0, 0, 0 };
 extern const Il2CppType Double_t534516614_0_0_3 = { (void*)31, 3, IL2CPP_TYPE_R8, 0, 0, 0 };
 extern const Il2CppType Double_t534516614_0_0_1 = { (void*)31, 1, IL2CPP_TYPE_R8, 0, 0, 0 };
 extern const Il2CppType Double_t534516614_0_0_6 = { (void*)31, 6, IL2CPP_TYPE_R8, 0, 0, 0 };
@@ -9272,7 +9275,7 @@ extern const Il2CppType TypeTagU5BU5D_t4081655900_0_0_0 = { (void*)&TypeTag_t173
 
 extern const Il2CppType ITrackingHandler_t663364710_0_0_0;
 extern const Il2CppType ITrackingHandlerU5BU5D_t4057050947_0_0_0 = { (void*)&ITrackingHandler_t663364710_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const Il2CppType* const  g_Il2CppTypeTable[5092] = 
+extern const Il2CppType* const  g_Il2CppTypeTable[5095] = 
 {
 	&IEnumerator_1_t2320212868_0_0_0,
 	&Il2CppObject_0_0_0,
@@ -10476,11 +10479,15 @@ extern const Il2CppType* const  g_Il2CppTypeTable[5092] =
 	&IEnumerator_1_t543085528_0_0_0,
 	&IEnumerable_1_t2707313927_gp_0_0_0_0,
 	&Single_t958209021_1_0_0,
+	&Single_t958209021_0_0_32854,
+	&Double_t534516614_0_0_32849,
 	&Single_t958209021_0_0_3,
 	&IComparable_1_t4215778883_0_0_3,
 	&IEquatable_1_t199833981_0_0_4,
 	&Double_t534516614_1_0_0,
 	&Double_t534516614_1_0_2,
+	&Double_t534516614_0_0_32854,
+	&Int32_t2847414787_0_0_32849,
 	&Double_t534516614_0_0_3,
 	&IComparable_1_t3792086476_0_0_3,
 	&IEquatable_1_t4071108870_0_0_4,
@@ -11352,7 +11359,6 @@ extern const Il2CppType* const  g_Il2CppTypeTable[5092] =
 	&CompareOptions_t1115053679_0_0_32854,
 	&CultureInfo_t3603717042_1_0_0,
 	&DateTimeFormatInfo_t2504543158_0_0_0,
-	&Int32_t2847414787_0_0_32849,
 	&CultureInfo_t3603717042_0_0_17,
 	&Int32_t2847414787_0_0_19,
 	&NumberFormatInfo_t3411951076_0_0_129,
@@ -14024,6 +14030,7 @@ extern const Il2CppType* const  g_Il2CppTypeTable[5092] =
 	&Camera_t3533968274_1_0_0,
 	&Rect_t1525428817_1_0_2,
 	&CameraClearFlags_t3602484652_0_0_0,
+	&Vector3_t3525329789_1_0_2,
 	&Ray_t1522967639_1_0_2,
 	&CameraU5BU5D_t458432999_0_0_0,
 	&GameObject_t4012695102_0_0_0,
@@ -14049,7 +14056,6 @@ extern const Il2CppType* const  g_Il2CppTypeTable[5092] =
 	&MonoBehaviour_t3012272455_1_0_0,
 	&Input_t1593691127_0_0_0,
 	&Input_t1593691127_1_0_0,
-	&Vector3_t3525329789_1_0_2,
 	&HideFlags_t62234258_0_0_0,
 	&HideFlags_t62234258_1_0_0,
 	&HideFlags_t62234258_0_0_32854,

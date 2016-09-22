@@ -14,7 +14,7 @@
 {
   self = [super initWithFrame:frame];
   if (self){
-    self.uView = (UIView*)GetAppController().unityView;
+    self.uView = GetAppController().unityView;
   }
   return self;
 }
@@ -26,9 +26,6 @@
   self.uView.frame = self.bounds;
   [self insertSubview:self.uView atIndex:0];
   [self.uView setNeedsLayout];
-  
-//  [self addSubview:(UIView*) GetAppController().unityView];
-//  [self setNeedsLayout];
 }
 
 @end

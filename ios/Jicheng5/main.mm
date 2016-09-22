@@ -51,8 +51,8 @@ int main(int argc, char* argv[])
     // signal and allows Mono to throw a proper C# exception.
     std::signal(SIGPIPE, SIG_IGN);
     
-    UIApplicationMain(argc, argv, nil, [NSString stringWithUTF8String:AppControllerClassName]);
-//    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+//    UIApplicationMain(argc, argv, nil, [NSString stringWithUTF8String:AppControllerClassName]);
+    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
   }
   
   return 0;

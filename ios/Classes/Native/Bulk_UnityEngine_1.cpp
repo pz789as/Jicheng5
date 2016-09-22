@@ -236,8 +236,9 @@ struct TypeInferenceRuleAttribute_t471424957;
 #include "UnityEngine_UnityEngine_TextureFormat2239483167MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Transform284553113.h"
 #include "UnityEngine_UnityEngine_Transform284553113MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Quaternion1891715979.h"
 #include "UnityEngine_UnityEngine_Vector33525329789.h"
+#include "UnityEngine_UnityEngine_Quaternion1891715979.h"
+#include "UnityEngine_UnityEngine_Vector33525329789MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Quaternion1891715979MethodDeclarations.h"
 #include "mscorlib_System_Single958209021.h"
 #include "UnityEngine_UnityEngine_Transform_Enumerator1072804836MethodDeclarations.h"
@@ -256,7 +257,6 @@ struct TypeInferenceRuleAttribute_t471424957;
 #include "mscorlib_System_Runtime_Serialization_StreamingCont986364934.h"
 #include "UnityEngine_UnityEngine_UnityString963216403.h"
 #include "UnityEngine_UnityEngine_UnityString963216403MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Vector33525329789MethodDeclarations.h"
 #include "mscorlib_System_Single958209021MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_WaitForEndOfFrame1917318876.h"
 #include "UnityEngine_UnityEngine_WaitForEndOfFrame1917318876MethodDeclarations.h"
@@ -5404,6 +5404,43 @@ extern "C"  void Texture2D_Internal_Create_m457592211 (Il2CppObject * __this /* 
 	_il2cpp_icall_func = (Texture2D_Internal_Create_m457592211_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Texture2D::Internal_Create(UnityEngine.Texture2D,System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean,System.Boolean,System.IntPtr)");
 	_il2cpp_icall_func(___mono0, ___width1, ___height2, ___format3, ___mipmap4, ___linear5, ___nativeTex6);
 }
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+extern "C"  Vector3_t3525329789  Transform_get_position_m2211398607 (Transform_t284553113 * __this, const MethodInfo* method)
+{
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Transform_INTERNAL_get_position_m1705230066(__this, (&V_0), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
+extern "C"  void Transform_set_position_m3111394108 (Transform_t284553113 * __this, Vector3_t3525329789  ___value0, const MethodInfo* method)
+{
+	{
+		Transform_INTERNAL_set_position_m1126232166(__this, (&___value0), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Transform::INTERNAL_get_position(UnityEngine.Vector3&)
+extern "C"  void Transform_INTERNAL_get_position_m1705230066 (Transform_t284553113 * __this, Vector3_t3525329789 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Transform_INTERNAL_get_position_m1705230066_ftn) (Transform_t284553113 *, Vector3_t3525329789 *);
+	static Transform_INTERNAL_get_position_m1705230066_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Transform_INTERNAL_get_position_m1705230066_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::INTERNAL_get_position(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
+// System.Void UnityEngine.Transform::INTERNAL_set_position(UnityEngine.Vector3&)
+extern "C"  void Transform_INTERNAL_set_position_m1126232166 (Transform_t284553113 * __this, Vector3_t3525329789 * ___value0, const MethodInfo* method)
+{
+	typedef void (*Transform_INTERNAL_set_position_m1126232166_ftn) (Transform_t284553113 *, Vector3_t3525329789 *);
+	static Transform_INTERNAL_set_position_m1126232166_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Transform_INTERNAL_set_position_m1126232166_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::INTERNAL_set_position(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
 extern "C"  Quaternion_t1891715979  Transform_get_rotation_m11483428 (Transform_t284553113 * __this, const MethodInfo* method)
 {
@@ -5478,6 +5515,50 @@ extern "C"  void Transform_INTERNAL_set_localRotation_m2898114752 (Transform_t28
 	_il2cpp_icall_func = (Transform_INTERNAL_set_localRotation_m2898114752_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::INTERNAL_set_localRotation(UnityEngine.Quaternion&)");
 	_il2cpp_icall_func(__this, ___value0);
 }
+// System.Void UnityEngine.Transform::Translate(UnityEngine.Vector3)
+extern "C"  void Transform_Translate_m2849099360 (Transform_t284553113 * __this, Vector3_t3525329789  ___translation0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = 1;
+		Vector3_t3525329789  L_0 = ___translation0;
+		int32_t L_1 = V_0;
+		Transform_Translate_m1056984957(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Transform::Translate(UnityEngine.Vector3,UnityEngine.Space)
+extern "C"  void Transform_Translate_m1056984957 (Transform_t284553113 * __this, Vector3_t3525329789  ___translation0, int32_t ___relativeTo1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___relativeTo1;
+		if (L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		Vector3_t3525329789  L_1 = Transform_get_position_m2211398607(__this, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_2 = ___translation0;
+		Vector3_t3525329789  L_3 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		Transform_set_position_m3111394108(__this, L_3, /*hidden argument*/NULL);
+		goto IL_0035;
+	}
+
+IL_001d:
+	{
+		Vector3_t3525329789  L_4 = Transform_get_position_m2211398607(__this, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_5 = ___translation0;
+		Vector3_t3525329789  L_6 = Transform_TransformDirection_m83001769(__this, L_5, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_7 = Vector3_op_Addition_m695438225(NULL /*static, unused*/, L_4, L_6, /*hidden argument*/NULL);
+		Transform_set_position_m3111394108(__this, L_7, /*hidden argument*/NULL);
+	}
+
+IL_0035:
+	{
+		return;
+	}
+}
 // System.Void UnityEngine.Transform::Rotate(UnityEngine.Vector3)
 extern "C"  void Transform_Rotate_m637363399 (Transform_t284553113 * __this, Vector3_t3525329789  ___eulerAngles0, const MethodInfo* method)
 {
@@ -5496,9 +5577,9 @@ extern "C"  void Transform_Rotate_m3141515812 (Transform_t284553113 * __this, Ve
 	Quaternion_t1891715979  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	{
-		float L_0 = (&___eulerAngles0)->get_x_0();
-		float L_1 = (&___eulerAngles0)->get_y_1();
-		float L_2 = (&___eulerAngles0)->get_z_2();
+		float L_0 = (&___eulerAngles0)->get_x_1();
+		float L_1 = (&___eulerAngles0)->get_y_2();
+		float L_2 = (&___eulerAngles0)->get_z_3();
 		Quaternion_t1891715979  L_3 = Quaternion_Euler_m1204688217(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		int32_t L_4 = ___relativeTo1;
@@ -5532,6 +5613,26 @@ IL_0066:
 	{
 		return;
 	}
+}
+// UnityEngine.Vector3 UnityEngine.Transform::TransformDirection(UnityEngine.Vector3)
+extern "C"  Vector3_t3525329789  Transform_TransformDirection_m83001769 (Transform_t284553113 * __this, Vector3_t3525329789  ___direction0, const MethodInfo* method)
+{
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Transform_INTERNAL_CALL_TransformDirection_m3704788692(NULL /*static, unused*/, __this, (&___direction0), (&V_0), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Transform::INTERNAL_CALL_TransformDirection(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
+extern "C"  void Transform_INTERNAL_CALL_TransformDirection_m3704788692 (Il2CppObject * __this /* static, unused */, Transform_t284553113 * ___self0, Vector3_t3525329789 * ___direction1, Vector3_t3525329789 * ___value2, const MethodInfo* method)
+{
+	typedef void (*Transform_INTERNAL_CALL_TransformDirection_m3704788692_ftn) (Transform_t284553113 *, Vector3_t3525329789 *, Vector3_t3525329789 *);
+	static Transform_INTERNAL_CALL_TransformDirection_m3704788692_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Transform_INTERNAL_CALL_TransformDirection_m3704788692_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::INTERNAL_CALL_TransformDirection(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)");
+	_il2cpp_icall_func(___self0, ___direction1, ___value2);
 }
 // System.Int32 UnityEngine.Transform::get_childCount()
 extern "C"  int32_t Transform_get_childCount_m2107810675 (Transform_t284553113 * __this, const MethodInfo* method)
@@ -5798,11 +5899,11 @@ extern "C"  void Vector3__ctor_m2926210380 (Vector3_t3525329789 * __this, float 
 {
 	{
 		float L_0 = ___x0;
-		__this->set_x_0(L_0);
+		__this->set_x_1(L_0);
 		float L_1 = ___y1;
-		__this->set_y_1(L_1);
+		__this->set_y_2(L_1);
 		float L_2 = ___z2;
-		__this->set_z_2(L_2);
+		__this->set_z_3(L_2);
 		return;
 	}
 }
@@ -5810,11 +5911,11 @@ extern "C"  void Vector3__ctor_m2926210380 (Vector3_t3525329789 * __this, float 
 extern "C"  int32_t Vector3_GetHashCode_m3912867704 (Vector3_t3525329789 * __this, const MethodInfo* method)
 {
 	{
-		float* L_0 = __this->get_address_of_x_0();
+		float* L_0 = __this->get_address_of_x_1();
 		int32_t L_1 = Single_GetHashCode_m65342520(L_0, /*hidden argument*/NULL);
-		float* L_2 = __this->get_address_of_y_1();
+		float* L_2 = __this->get_address_of_y_2();
 		int32_t L_3 = Single_GetHashCode_m65342520(L_2, /*hidden argument*/NULL);
-		float* L_4 = __this->get_address_of_z_2();
+		float* L_4 = __this->get_address_of_z_3();
 		int32_t L_5 = Single_GetHashCode_m65342520(L_4, /*hidden argument*/NULL);
 		return ((int32_t)((int32_t)((int32_t)((int32_t)L_1^(int32_t)((int32_t)((int32_t)L_3<<(int32_t)2))))^(int32_t)((int32_t)((int32_t)L_5>>(int32_t)2))));
 	}
@@ -5848,8 +5949,8 @@ IL_000d:
 	{
 		Il2CppObject * L_1 = ___other0;
 		V_0 = ((*(Vector3_t3525329789 *)((Vector3_t3525329789 *)UnBox (L_1, Vector3_t3525329789_il2cpp_TypeInfo_var))));
-		float* L_2 = __this->get_address_of_x_0();
-		float L_3 = (&V_0)->get_x_0();
+		float* L_2 = __this->get_address_of_x_1();
+		float L_3 = (&V_0)->get_x_1();
 		bool L_4 = Single_Equals_m2110115959(L_2, L_3, /*hidden argument*/NULL);
 		if (!L_4)
 		{
@@ -5857,8 +5958,8 @@ IL_000d:
 		}
 	}
 	{
-		float* L_5 = __this->get_address_of_y_1();
-		float L_6 = (&V_0)->get_y_1();
+		float* L_5 = __this->get_address_of_y_2();
+		float L_6 = (&V_0)->get_y_2();
 		bool L_7 = Single_Equals_m2110115959(L_5, L_6, /*hidden argument*/NULL);
 		if (!L_7)
 		{
@@ -5866,8 +5967,8 @@ IL_000d:
 		}
 	}
 	{
-		float* L_8 = __this->get_address_of_z_2();
-		float L_9 = (&V_0)->get_z_2();
+		float* L_8 = __this->get_address_of_z_3();
+		float L_9 = (&V_0)->get_z_3();
 		bool L_10 = Single_Equals_m2110115959(L_8, L_9, /*hidden argument*/NULL);
 		G_B6_0 = ((int32_t)(L_10));
 		goto IL_0057;
@@ -5898,7 +5999,7 @@ extern "C"  String_t* Vector3_ToString_m3566373060 (Vector3_t3525329789 * __this
 	}
 	{
 		ObjectU5BU5D_t11523773* L_0 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)3));
-		float L_1 = __this->get_x_0();
+		float L_1 = __this->get_x_1();
 		float L_2 = L_1;
 		Il2CppObject * L_3 = Box(Single_t958209021_il2cpp_TypeInfo_var, &L_2);
 		NullCheck(L_0);
@@ -5906,7 +6007,7 @@ extern "C"  String_t* Vector3_ToString_m3566373060 (Vector3_t3525329789 * __this
 		ArrayElementTypeCheck (L_0, L_3);
 		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
 		ObjectU5BU5D_t11523773* L_4 = L_0;
-		float L_5 = __this->get_y_1();
+		float L_5 = __this->get_y_2();
 		float L_6 = L_5;
 		Il2CppObject * L_7 = Box(Single_t958209021_il2cpp_TypeInfo_var, &L_6);
 		NullCheck(L_4);
@@ -5914,7 +6015,7 @@ extern "C"  String_t* Vector3_ToString_m3566373060 (Vector3_t3525329789 * __this
 		ArrayElementTypeCheck (L_4, L_7);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_7);
 		ObjectU5BU5D_t11523773* L_8 = L_4;
-		float L_9 = __this->get_z_2();
+		float L_9 = __this->get_z_3();
 		float L_10 = L_9;
 		Il2CppObject * L_11 = Box(Single_t958209021_il2cpp_TypeInfo_var, &L_10);
 		NullCheck(L_8);
@@ -5945,15 +6046,61 @@ extern "C"  Vector3_t3525329789  Vector3_get_up_m4046647141 (Il2CppObject * __th
 		return L_0;
 	}
 }
+// UnityEngine.Vector3 UnityEngine.Vector3::get_down()
+extern "C"  Vector3_t3525329789  Vector3_get_down_m1397301612 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		Vector3_t3525329789  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Vector3__ctor_m2926210380(&L_0, (0.0f), (-1.0f), (0.0f), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// UnityEngine.Vector3 UnityEngine.Vector3::get_left()
+extern "C"  Vector3_t3525329789  Vector3_get_left_m1616598929 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		Vector3_t3525329789  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Vector3__ctor_m2926210380(&L_0, (-1.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// UnityEngine.Vector3 UnityEngine.Vector3::get_right()
+extern "C"  Vector3_t3525329789  Vector3_get_right_m4015137012 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		Vector3_t3525329789  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		Vector3__ctor_m2926210380(&L_0, (1.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Vector3_t3525329789  Vector3_op_Addition_m695438225 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789  ___a0, Vector3_t3525329789  ___b1, const MethodInfo* method)
+{
+	{
+		float L_0 = (&___a0)->get_x_1();
+		float L_1 = (&___b1)->get_x_1();
+		float L_2 = (&___a0)->get_y_2();
+		float L_3 = (&___b1)->get_y_2();
+		float L_4 = (&___a0)->get_z_3();
+		float L_5 = (&___b1)->get_z_3();
+		Vector3_t3525329789  L_6;
+		memset(&L_6, 0, sizeof(L_6));
+		Vector3__ctor_m2926210380(&L_6, ((float)((float)L_0+(float)L_1)), ((float)((float)L_2+(float)L_3)), ((float)((float)L_4+(float)L_5)), /*hidden argument*/NULL);
+		return L_6;
+	}
+}
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
 extern "C"  Vector3_t3525329789  Vector3_op_Multiply_m973638459 (Il2CppObject * __this /* static, unused */, Vector3_t3525329789  ___a0, float ___d1, const MethodInfo* method)
 {
 	{
-		float L_0 = (&___a0)->get_x_0();
+		float L_0 = (&___a0)->get_x_1();
 		float L_1 = ___d1;
-		float L_2 = (&___a0)->get_y_1();
+		float L_2 = (&___a0)->get_y_2();
 		float L_3 = ___d1;
-		float L_4 = (&___a0)->get_z_2();
+		float L_4 = (&___a0)->get_z_3();
 		float L_5 = ___d1;
 		Vector3_t3525329789  L_6;
 		memset(&L_6, 0, sizeof(L_6));
@@ -5964,21 +6111,21 @@ extern "C"  Vector3_t3525329789  Vector3_op_Multiply_m973638459 (Il2CppObject * 
 // Conversion methods for marshalling of: UnityEngine.Vector3
 extern "C" void Vector3_t3525329789_marshal_pinvoke(const Vector3_t3525329789& unmarshaled, Vector3_t3525329789_marshaled_pinvoke& marshaled)
 {
-	marshaled.___x_0 = unmarshaled.get_x_0();
-	marshaled.___y_1 = unmarshaled.get_y_1();
-	marshaled.___z_2 = unmarshaled.get_z_2();
+	marshaled.___x_1 = unmarshaled.get_x_1();
+	marshaled.___y_2 = unmarshaled.get_y_2();
+	marshaled.___z_3 = unmarshaled.get_z_3();
 }
 extern "C" void Vector3_t3525329789_marshal_pinvoke_back(const Vector3_t3525329789_marshaled_pinvoke& marshaled, Vector3_t3525329789& unmarshaled)
 {
 	float unmarshaled_x_temp = 0.0f;
-	unmarshaled_x_temp = marshaled.___x_0;
-	unmarshaled.set_x_0(unmarshaled_x_temp);
+	unmarshaled_x_temp = marshaled.___x_1;
+	unmarshaled.set_x_1(unmarshaled_x_temp);
 	float unmarshaled_y_temp = 0.0f;
-	unmarshaled_y_temp = marshaled.___y_1;
-	unmarshaled.set_y_1(unmarshaled_y_temp);
+	unmarshaled_y_temp = marshaled.___y_2;
+	unmarshaled.set_y_2(unmarshaled_y_temp);
 	float unmarshaled_z_temp = 0.0f;
-	unmarshaled_z_temp = marshaled.___z_2;
-	unmarshaled.set_z_2(unmarshaled_z_temp);
+	unmarshaled_z_temp = marshaled.___z_3;
+	unmarshaled.set_z_3(unmarshaled_z_temp);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.Vector3
 extern "C" void Vector3_t3525329789_marshal_pinvoke_cleanup(Vector3_t3525329789_marshaled_pinvoke& marshaled)
@@ -5987,21 +6134,21 @@ extern "C" void Vector3_t3525329789_marshal_pinvoke_cleanup(Vector3_t3525329789_
 // Conversion methods for marshalling of: UnityEngine.Vector3
 extern "C" void Vector3_t3525329789_marshal_com(const Vector3_t3525329789& unmarshaled, Vector3_t3525329789_marshaled_com& marshaled)
 {
-	marshaled.___x_0 = unmarshaled.get_x_0();
-	marshaled.___y_1 = unmarshaled.get_y_1();
-	marshaled.___z_2 = unmarshaled.get_z_2();
+	marshaled.___x_1 = unmarshaled.get_x_1();
+	marshaled.___y_2 = unmarshaled.get_y_2();
+	marshaled.___z_3 = unmarshaled.get_z_3();
 }
 extern "C" void Vector3_t3525329789_marshal_com_back(const Vector3_t3525329789_marshaled_com& marshaled, Vector3_t3525329789& unmarshaled)
 {
 	float unmarshaled_x_temp = 0.0f;
-	unmarshaled_x_temp = marshaled.___x_0;
-	unmarshaled.set_x_0(unmarshaled_x_temp);
+	unmarshaled_x_temp = marshaled.___x_1;
+	unmarshaled.set_x_1(unmarshaled_x_temp);
 	float unmarshaled_y_temp = 0.0f;
-	unmarshaled_y_temp = marshaled.___y_1;
-	unmarshaled.set_y_1(unmarshaled_y_temp);
+	unmarshaled_y_temp = marshaled.___y_2;
+	unmarshaled.set_y_2(unmarshaled_y_temp);
 	float unmarshaled_z_temp = 0.0f;
-	unmarshaled_z_temp = marshaled.___z_2;
-	unmarshaled.set_z_2(unmarshaled_z_temp);
+	unmarshaled_z_temp = marshaled.___z_3;
+	unmarshaled.set_z_3(unmarshaled_z_temp);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.Vector3
 extern "C" void Vector3_t3525329789_marshal_com_cleanup(Vector3_t3525329789_marshaled_com& marshaled)

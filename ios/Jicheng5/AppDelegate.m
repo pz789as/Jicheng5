@@ -14,14 +14,6 @@
 
 @implementation AppDelegate
 
--(void)showUnityWindow{
-  [self.unityAppController.window makeKeyAndVisible];
-}
-
--(void)hideUnityWindow{
-  [self.window makeKeyAndVisible];
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   NSURL *jsCodeLocation;

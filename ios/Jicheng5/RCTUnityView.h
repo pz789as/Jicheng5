@@ -11,7 +11,6 @@
 
 @interface RCTUnityView : UIView
 
-@property (nonatomic, strong) UnityAppController* unityAppController;
 @property (nonatomic, strong) UIView* uView;
 
 @end

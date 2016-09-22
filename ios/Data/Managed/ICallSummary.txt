@@ -29,7 +29,10 @@ UnityEngine.Camera::get_eventMask
 UnityEngine.Camera::get_farClipPlane
 UnityEngine.Camera::get_nearClipPlane
 UnityEngine.Camera::INTERNAL_CALL_ScreenPointToRay
+UnityEngine.Camera::INTERNAL_CALL_ScreenToWorldPoint
+UnityEngine.Camera::INTERNAL_CALL_WorldToScreenPoint
 UnityEngine.Camera::INTERNAL_get_pixelRect
+UnityEngine.Camera::get_main
 UnityEngine.Camera::get_clearFlags
 UnityEngine.Camera::INTERNAL_CALL_RaycastTry
 UnityEngine.Camera::INTERNAL_CALL_RaycastTry2D
@@ -190,9 +193,12 @@ UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::Internal_LoadScores
 UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard::Internal_LoadScoresWithUsers
 UnityEngine.Texture2D::Internal_Create
 UnityEngine.Transform::get_childCount
+UnityEngine.Transform::INTERNAL_CALL_TransformDirection
 UnityEngine.Transform::INTERNAL_get_localRotation
+UnityEngine.Transform::INTERNAL_get_position
 UnityEngine.Transform::INTERNAL_get_rotation
 UnityEngine.Transform::INTERNAL_set_localRotation
+UnityEngine.Transform::INTERNAL_set_position
 UnityEngine.Transform::INTERNAL_set_rotation
 UnityEngine.Transform::GetChild
 UnityEngine.UnhandledExceptionHandler::NativeUnhandledExceptionHandler

@@ -830,6 +830,7 @@
 #include "UnityEngine_UnityEngine_Serialization_FormerlySeria581346955.h"
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRules435505844.h"
 #include "UnityEngine_UnityEngineInternal_TypeInferenceRuleAt471424957.h"
+#include "AssemblyU2DCSharp_RotateSelf1914689383.h"
 #include "mscorlib_U3CModuleU3E86524790.h"
 #include "mscorlib_System_Object837106420.h"
 #include "mscorlib_System_ValueType4014882752.h"
@@ -1174,7 +1175,6 @@
 #include "UnityEngine_UnityEngine_Scripting_RequiredByNativeC641452194.h"
 #include "UnityEngine_UnityEngine_Scripting_UsedByNativeCode1800197956.h"
 #include "AssemblyU2DCSharp_U3CModuleU3E86524790.h"
-#include "AssemblyU2DCSharp_RotateSelf1914689383.h"
 
 
 
@@ -1183,7 +1183,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[4754] = 
+extern const int32_t g_FieldOffsetTable[4776] = 
 {
 	0,
 	0,
@@ -1212,8 +1212,28 @@ extern const int32_t g_FieldOffsetTable[4754] =
 	String_t::get_offset_of_start_char_1(),
 	String_t_StaticFields::get_offset_of_Empty_2(),
 	String_t_StaticFields::get_offset_of_WhiteChars_3(),
-	Single_t958209021::get_offset_of_m_value_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Double_t534516614::get_offset_of_m_value_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	Single_t958209021::get_offset_of_m_value_7() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	Double_t534516614::get_offset_of_m_value_13() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Decimal_t1688557254_StaticFields::get_offset_of_MinValue_0(),
 	Decimal_t1688557254_StaticFields::get_offset_of_MaxValue_1(),
 	Decimal_t1688557254_StaticFields::get_offset_of_MinusOne_2(),
@@ -5619,9 +5639,10 @@ extern const int32_t g_FieldOffsetTable[4754] =
 	CullingGroup_t281933724::get_offset_of_m_Ptr_0(),
 	CullingGroup_t281933724::get_offset_of_m_OnStateChanged_1(),
 	Gradient_t1677180829::get_offset_of_m_Ptr_0(),
-	Vector3_t3525329789::get_offset_of_x_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Vector3_t3525329789::get_offset_of_y_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
-	Vector3_t3525329789::get_offset_of_z_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	0,
+	Vector3_t3525329789::get_offset_of_x_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Vector3_t3525329789::get_offset_of_y_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
+	Vector3_t3525329789::get_offset_of_z_3() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Quaternion_t1891715979::get_offset_of_x_0() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Quaternion_t1891715979::get_offset_of_y_1() + static_cast<int32_t>(sizeof(Il2CppObject)),
 	Quaternion_t1891715979::get_offset_of_z_2() + static_cast<int32_t>(sizeof(Il2CppObject)),
@@ -5939,6 +5960,7 @@ extern const int32_t g_FieldOffsetTable[4754] =
 	0,
 	0,
 	TypeInferenceRuleAttribute_t471424957::get_offset_of__rule_0(),
+	RotateSelf_t1914689383::get_offset_of__cameraPos_2(),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

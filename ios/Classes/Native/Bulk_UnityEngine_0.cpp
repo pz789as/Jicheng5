@@ -2131,6 +2131,46 @@ extern "C"  int32_t Camera_get_clearFlags_m192466552 (Camera_t3533968274 * __thi
 	_il2cpp_icall_func = (Camera_get_clearFlags_m192466552_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_clearFlags()");
 	return _il2cpp_icall_func(__this);
 }
+// UnityEngine.Vector3 UnityEngine.Camera::WorldToScreenPoint(UnityEngine.Vector3)
+extern "C"  Vector3_t3525329789  Camera_WorldToScreenPoint_m2400233676 (Camera_t3533968274 * __this, Vector3_t3525329789  ___position0, const MethodInfo* method)
+{
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Camera_INTERNAL_CALL_WorldToScreenPoint_m316056758(NULL /*static, unused*/, __this, (&___position0), (&V_0), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Camera::INTERNAL_CALL_WorldToScreenPoint(UnityEngine.Camera,UnityEngine.Vector3&,UnityEngine.Vector3&)
+extern "C"  void Camera_INTERNAL_CALL_WorldToScreenPoint_m316056758 (Il2CppObject * __this /* static, unused */, Camera_t3533968274 * ___self0, Vector3_t3525329789 * ___position1, Vector3_t3525329789 * ___value2, const MethodInfo* method)
+{
+	typedef void (*Camera_INTERNAL_CALL_WorldToScreenPoint_m316056758_ftn) (Camera_t3533968274 *, Vector3_t3525329789 *, Vector3_t3525329789 *);
+	static Camera_INTERNAL_CALL_WorldToScreenPoint_m316056758_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_INTERNAL_CALL_WorldToScreenPoint_m316056758_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_CALL_WorldToScreenPoint(UnityEngine.Camera,UnityEngine.Vector3&,UnityEngine.Vector3&)");
+	_il2cpp_icall_func(___self0, ___position1, ___value2);
+}
+// UnityEngine.Vector3 UnityEngine.Camera::ScreenToWorldPoint(UnityEngine.Vector3)
+extern "C"  Vector3_t3525329789  Camera_ScreenToWorldPoint_m1572306334 (Camera_t3533968274 * __this, Vector3_t3525329789  ___position0, const MethodInfo* method)
+{
+	Vector3_t3525329789  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Camera_INTERNAL_CALL_ScreenToWorldPoint_m1475601444(NULL /*static, unused*/, __this, (&___position0), (&V_0), /*hidden argument*/NULL);
+		Vector3_t3525329789  L_0 = V_0;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.Camera::INTERNAL_CALL_ScreenToWorldPoint(UnityEngine.Camera,UnityEngine.Vector3&,UnityEngine.Vector3&)
+extern "C"  void Camera_INTERNAL_CALL_ScreenToWorldPoint_m1475601444 (Il2CppObject * __this /* static, unused */, Camera_t3533968274 * ___self0, Vector3_t3525329789 * ___position1, Vector3_t3525329789 * ___value2, const MethodInfo* method)
+{
+	typedef void (*Camera_INTERNAL_CALL_ScreenToWorldPoint_m1475601444_ftn) (Camera_t3533968274 *, Vector3_t3525329789 *, Vector3_t3525329789 *);
+	static Camera_INTERNAL_CALL_ScreenToWorldPoint_m1475601444_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_INTERNAL_CALL_ScreenToWorldPoint_m1475601444_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_CALL_ScreenToWorldPoint(UnityEngine.Camera,UnityEngine.Vector3&,UnityEngine.Vector3&)");
+	_il2cpp_icall_func(___self0, ___position1, ___value2);
+}
 // UnityEngine.Ray UnityEngine.Camera::ScreenPointToRay(UnityEngine.Vector3)
 extern "C"  Ray_t1522967639  Camera_ScreenPointToRay_m1733083890 (Camera_t3533968274 * __this, Vector3_t3525329789  ___position0, const MethodInfo* method)
 {
@@ -2150,6 +2190,15 @@ extern "C"  void Camera_INTERNAL_CALL_ScreenPointToRay_m371614468 (Il2CppObject 
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Camera_INTERNAL_CALL_ScreenPointToRay_m371614468_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::INTERNAL_CALL_ScreenPointToRay(UnityEngine.Camera,UnityEngine.Vector3&,UnityEngine.Ray&)");
 	_il2cpp_icall_func(___self0, ___position1, ___value2);
+}
+// UnityEngine.Camera UnityEngine.Camera::get_main()
+extern "C"  Camera_t3533968274 * Camera_get_main_m671815697 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef Camera_t3533968274 * (*Camera_get_main_m671815697_ftn) ();
+	static Camera_get_main_m671815697_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Camera_get_main_m671815697_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Camera::get_main()");
+	return _il2cpp_icall_func();
 }
 // System.Int32 UnityEngine.Camera::get_allCamerasCount()
 extern "C"  int32_t Camera_get_allCamerasCount_m3993434431 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
@@ -8966,7 +9015,7 @@ extern "C"  bool Rect_Contains_m3556594041 (Rect_t1525428817 * __this, Vector3_t
 {
 	int32_t G_B5_0 = 0;
 	{
-		float L_0 = (&___point0)->get_x_0();
+		float L_0 = (&___point0)->get_x_1();
 		float L_1 = Rect_get_xMin_m371109962(__this, /*hidden argument*/NULL);
 		if ((!(((float)L_0) >= ((float)L_1))))
 		{
@@ -8974,7 +9023,7 @@ extern "C"  bool Rect_Contains_m3556594041 (Rect_t1525428817 * __this, Vector3_t
 		}
 	}
 	{
-		float L_2 = (&___point0)->get_x_0();
+		float L_2 = (&___point0)->get_x_1();
 		float L_3 = Rect_get_xMax_m370881244(__this, /*hidden argument*/NULL);
 		if ((!(((float)L_2) < ((float)L_3))))
 		{
@@ -8982,7 +9031,7 @@ extern "C"  bool Rect_Contains_m3556594041 (Rect_t1525428817 * __this, Vector3_t
 		}
 	}
 	{
-		float L_4 = (&___point0)->get_y_1();
+		float L_4 = (&___point0)->get_y_2();
 		float L_5 = Rect_get_yMin_m399739113(__this, /*hidden argument*/NULL);
 		if ((!(((float)L_4) >= ((float)L_5))))
 		{
@@ -8990,7 +9039,7 @@ extern "C"  bool Rect_Contains_m3556594041 (Rect_t1525428817 * __this, Vector3_t
 		}
 	}
 	{
-		float L_6 = (&___point0)->get_y_1();
+		float L_6 = (&___point0)->get_y_2();
 		float L_7 = Rect_get_yMax_m399510395(__this, /*hidden argument*/NULL);
 		G_B5_0 = ((((float)L_6) < ((float)L_7))? 1 : 0);
 		goto IL_0048;
@@ -9747,7 +9796,7 @@ IL_0155:
 		V_9 = L_48;
 		Vector3_t3525329789  L_49 = Ray_get_direction_m3201866877((&V_9), /*hidden argument*/NULL);
 		V_16 = L_49;
-		float L_50 = (&V_16)->get_z_2();
+		float L_50 = (&V_16)->get_z_3();
 		V_10 = L_50;
 		float L_51 = V_10;
 		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);

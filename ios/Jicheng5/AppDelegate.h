@@ -15,7 +15,4 @@
 @property (nonatomic, strong) UIWindow *window;
 @property (nonatomic, strong) UnityAppController* unityAppController;
 
--(void)showUnityWindow;
--(void)hideUnityWindow;
-
 @end

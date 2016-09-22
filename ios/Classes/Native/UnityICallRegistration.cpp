@@ -1,4 +1,4 @@
-//Generated on : 2016/9/14 14:46:35
+//Generated on : 2016/9/22 8:21:02
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -147,9 +147,21 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_INTERNAL_CALL_ScreenPointToRay();
 		Register_UnityEngine_Camera_INTERNAL_CALL_ScreenPointToRay();
 
+		//System.Void UnityEngine.Camera::INTERNAL_CALL_ScreenToWorldPoint(UnityEngine.Camera,UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Camera_INTERNAL_CALL_ScreenToWorldPoint();
+		Register_UnityEngine_Camera_INTERNAL_CALL_ScreenToWorldPoint();
+
+		//System.Void UnityEngine.Camera::INTERNAL_CALL_WorldToScreenPoint(UnityEngine.Camera,UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Camera_INTERNAL_CALL_WorldToScreenPoint();
+		Register_UnityEngine_Camera_INTERNAL_CALL_WorldToScreenPoint();
+
 		//System.Void UnityEngine.Camera::INTERNAL_get_pixelRect(UnityEngine.Rect&)
 		void Register_UnityEngine_Camera_INTERNAL_get_pixelRect();
 		Register_UnityEngine_Camera_INTERNAL_get_pixelRect();
+
+		//UnityEngine.Camera UnityEngine.Camera::get_main()
+		void Register_UnityEngine_Camera_get_main();
+		Register_UnityEngine_Camera_get_main();
 
 		//UnityEngine.CameraClearFlags UnityEngine.Camera::get_clearFlags()
 		void Register_UnityEngine_Camera_get_clearFlags();
@@ -899,9 +911,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Transform_get_childCount();
 		Register_UnityEngine_Transform_get_childCount();
 
+		//System.Void UnityEngine.Transform::INTERNAL_CALL_TransformDirection(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_INTERNAL_CALL_TransformDirection();
+		Register_UnityEngine_Transform_INTERNAL_CALL_TransformDirection();
+
 		//System.Void UnityEngine.Transform::INTERNAL_get_localRotation(UnityEngine.Quaternion&)
 		void Register_UnityEngine_Transform_INTERNAL_get_localRotation();
 		Register_UnityEngine_Transform_INTERNAL_get_localRotation();
+
+		//System.Void UnityEngine.Transform::INTERNAL_get_position(UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_INTERNAL_get_position();
+		Register_UnityEngine_Transform_INTERNAL_get_position();
 
 		//System.Void UnityEngine.Transform::INTERNAL_get_rotation(UnityEngine.Quaternion&)
 		void Register_UnityEngine_Transform_INTERNAL_get_rotation();
@@ -910,6 +930,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::INTERNAL_set_localRotation(UnityEngine.Quaternion&)
 		void Register_UnityEngine_Transform_INTERNAL_set_localRotation();
 		Register_UnityEngine_Transform_INTERNAL_set_localRotation();
+
+		//System.Void UnityEngine.Transform::INTERNAL_set_position(UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_INTERNAL_set_position();
+		Register_UnityEngine_Transform_INTERNAL_set_position();
 
 		//System.Void UnityEngine.Transform::INTERNAL_set_rotation(UnityEngine.Quaternion&)
 		void Register_UnityEngine_Transform_INTERNAL_set_rotation();

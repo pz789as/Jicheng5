@@ -7314,8 +7314,13 @@ extern "C" void Camera_get_pixelRect_m936851539 ();
 extern "C" void Camera_INTERNAL_get_pixelRect_m1853722860 ();
 extern "C" void Camera_get_targetTexture_m1468336738 ();
 extern "C" void Camera_get_clearFlags_m192466552 ();
+extern "C" void Camera_WorldToScreenPoint_m2400233676 ();
+extern "C" void Camera_INTERNAL_CALL_WorldToScreenPoint_m316056758 ();
+extern "C" void Camera_ScreenToWorldPoint_m1572306334 ();
+extern "C" void Camera_INTERNAL_CALL_ScreenToWorldPoint_m1475601444 ();
 extern "C" void Camera_ScreenPointToRay_m1733083890 ();
 extern "C" void Camera_INTERNAL_CALL_ScreenPointToRay_m371614468 ();
+extern "C" void Camera_get_main_m671815697 ();
 extern "C" void Camera_get_allCamerasCount_m3993434431 ();
 extern "C" void Camera_GetAllCameras_m3771867787 ();
 extern "C" void Camera_FireOnPreCull_m4184591338 ();
@@ -7930,6 +7935,10 @@ extern "C" void StateMachineBehaviour_OnStateMachineExit_m2976228338 ();
 extern "C" void Texture__ctor_m516856734 ();
 extern "C" void Texture2D__ctor_m1883511258 ();
 extern "C" void Texture2D_Internal_Create_m457592211 ();
+extern "C" void Transform_get_position_m2211398607 ();
+extern "C" void Transform_set_position_m3111394108 ();
+extern "C" void Transform_INTERNAL_get_position_m1705230066 ();
+extern "C" void Transform_INTERNAL_set_position_m1126232166 ();
 extern "C" void Transform_get_rotation_m11483428 ();
 extern "C" void Transform_set_rotation_m1525803229 ();
 extern "C" void Transform_INTERNAL_get_rotation_m2389720173 ();
@@ -7938,8 +7947,12 @@ extern "C" void Transform_get_localRotation_m3343229381 ();
 extern "C" void Transform_set_localRotation_m3719981474 ();
 extern "C" void Transform_INTERNAL_get_localRotation_m1409235788 ();
 extern "C" void Transform_INTERNAL_set_localRotation_m2898114752 ();
+extern "C" void Transform_Translate_m2849099360 ();
+extern "C" void Transform_Translate_m1056984957 ();
 extern "C" void Transform_Rotate_m637363399 ();
 extern "C" void Transform_Rotate_m3141515812 ();
+extern "C" void Transform_TransformDirection_m83001769 ();
+extern "C" void Transform_INTERNAL_CALL_TransformDirection_m3704788692 ();
 extern "C" void Transform_get_childCount_m2107810675 ();
 extern "C" void Transform_GetEnumerator_m688365631 ();
 extern "C" void Transform_GetChild_m4040462992 ();
@@ -7962,6 +7975,10 @@ extern "C" void Vector3_Equals_m3337192096 ();
 extern "C" void Vector3_ToString_m3566373060 ();
 extern "C" void Vector3_get_zero_m2017759730 ();
 extern "C" void Vector3_get_up_m4046647141 ();
+extern "C" void Vector3_get_down_m1397301612 ();
+extern "C" void Vector3_get_left_m1616598929 ();
+extern "C" void Vector3_get_right_m4015137012 ();
+extern "C" void Vector3_op_Addition_m695438225 ();
 extern "C" void Vector3_op_Multiply_m973638459 ();
 extern "C" void WaitForEndOfFrame__ctor_m4124201226 ();
 extern "C" void WaitForFixedUpdate__ctor_m2916734308 ();
@@ -7976,7 +7993,11 @@ extern "C" void TypeInferenceRuleAttribute_ToString_m318752778 ();
 extern "C" void RotateSelf__ctor_m337257748 ();
 extern "C" void RotateSelf_Start_m3579362836 ();
 extern "C" void RotateSelf_Update_m3591917689 ();
-extern const Il2CppMethodPointer g_MethodPointers[7965] = 
+extern "C" void RotateSelf_MoveLeft_m1476372392 ();
+extern "C" void RotateSelf_MoveRight_m3963081661 ();
+extern "C" void RotateSelf_MoveUp_m2164939068 ();
+extern "C" void RotateSelf_MoveDonw_m1256815605 ();
+extern const Il2CppMethodPointer g_MethodPointers[7986] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -15281,8 +15302,13 @@ extern const Il2CppMethodPointer g_MethodPointers[7965] =
 	Camera_INTERNAL_get_pixelRect_m1853722860,
 	Camera_get_targetTexture_m1468336738,
 	Camera_get_clearFlags_m192466552,
+	Camera_WorldToScreenPoint_m2400233676,
+	Camera_INTERNAL_CALL_WorldToScreenPoint_m316056758,
+	Camera_ScreenToWorldPoint_m1572306334,
+	Camera_INTERNAL_CALL_ScreenToWorldPoint_m1475601444,
 	Camera_ScreenPointToRay_m1733083890,
 	Camera_INTERNAL_CALL_ScreenPointToRay_m371614468,
+	Camera_get_main_m671815697,
 	Camera_get_allCamerasCount_m3993434431,
 	Camera_GetAllCameras_m3771867787,
 	Camera_FireOnPreCull_m4184591338,
@@ -15897,6 +15923,10 @@ extern const Il2CppMethodPointer g_MethodPointers[7965] =
 	Texture__ctor_m516856734,
 	Texture2D__ctor_m1883511258,
 	Texture2D_Internal_Create_m457592211,
+	Transform_get_position_m2211398607,
+	Transform_set_position_m3111394108,
+	Transform_INTERNAL_get_position_m1705230066,
+	Transform_INTERNAL_set_position_m1126232166,
 	Transform_get_rotation_m11483428,
 	Transform_set_rotation_m1525803229,
 	Transform_INTERNAL_get_rotation_m2389720173,
@@ -15905,8 +15935,12 @@ extern const Il2CppMethodPointer g_MethodPointers[7965] =
 	Transform_set_localRotation_m3719981474,
 	Transform_INTERNAL_get_localRotation_m1409235788,
 	Transform_INTERNAL_set_localRotation_m2898114752,
+	Transform_Translate_m2849099360,
+	Transform_Translate_m1056984957,
 	Transform_Rotate_m637363399,
 	Transform_Rotate_m3141515812,
+	Transform_TransformDirection_m83001769,
+	Transform_INTERNAL_CALL_TransformDirection_m3704788692,
 	Transform_get_childCount_m2107810675,
 	Transform_GetEnumerator_m688365631,
 	Transform_GetChild_m4040462992,
@@ -15929,6 +15963,10 @@ extern const Il2CppMethodPointer g_MethodPointers[7965] =
 	Vector3_ToString_m3566373060,
 	Vector3_get_zero_m2017759730,
 	Vector3_get_up_m4046647141,
+	Vector3_get_down_m1397301612,
+	Vector3_get_left_m1616598929,
+	Vector3_get_right_m4015137012,
+	Vector3_op_Addition_m695438225,
 	Vector3_op_Multiply_m973638459,
 	WaitForEndOfFrame__ctor_m4124201226,
 	WaitForFixedUpdate__ctor_m2916734308,
@@ -15943,4 +15981,8 @@ extern const Il2CppMethodPointer g_MethodPointers[7965] =
 	RotateSelf__ctor_m337257748,
 	RotateSelf_Start_m3579362836,
 	RotateSelf_Update_m3591917689,
+	RotateSelf_MoveLeft_m1476372392,
+	RotateSelf_MoveRight_m3963081661,
+	RotateSelf_MoveUp_m2164939068,
+	RotateSelf_MoveDonw_m1256815605,
 };
