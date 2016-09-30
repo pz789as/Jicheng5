@@ -25,4 +25,6 @@ RCT_EXPORT_MODULE();
   return dispatch_get_main_queue();
 }
 
+RCT_EXPORT_VIEW_PROPERTY(moveData, NSDictionary);
+
 @end

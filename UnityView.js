@@ -28,7 +28,7 @@ class UnityView extends Component {
 }
 
 UnityView.propTypes = {
-
+  moveData: React.PropTypes.object,
 };
 
 const UnityViewNative = requireNativeComponent('RCTUnityView', UnityView);
